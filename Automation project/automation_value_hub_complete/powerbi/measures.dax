@@ -1,0 +1,56 @@
+Total Net Saved Hours =
+SUM('automation_kpi'[net_saved_hours])
+
+Total Gross Saved Hours =
+SUM('automation_kpi'[gross_saved_hours])
+
+Actual Process Runs =
+SUM('automation_kpi'[actual_process_runs])
+
+Completed Runs =
+SUM('automation_kpi'[completed_runs])
+
+First-Pass Success Rate =
+DIVIDE(
+    SUM('automation_kpi'[clean_success_runs]),
+    SUM('automation_kpi'[actual_process_runs])
+)
+
+Completion Rate =
+DIVIDE(
+    SUM('automation_kpi'[completed_runs]),
+    SUM('automation_kpi'[actual_process_runs])
+)
+
+Failure Rate =
+DIVIDE(
+    SUM('automation_kpi'[failed_runs]),
+    SUM('automation_kpi'[actual_process_runs])
+)
+
+Execution Rate =
+DIVIDE(
+    SUM('automation_kpi'[actual_process_runs]),
+    SUM('automation_kpi'[expected_runs_used])
+)
+
+Maintenance Hours =
+DIVIDE(SUM('automation_kpi'[maintenance_minutes]), 60)
+
+Rework Hours =
+DIVIDE(SUM('automation_kpi'[rework_minutes]), 60)
+
+Active Automations =
+DISTINCTCOUNT('automation_kpi'[automation_id])
+
+Action Required Automations =
+CALCULATE(
+    DISTINCTCOUNT('automation_kpi'[automation_id]),
+    'automation_kpi'[health_status] = "Action Required"
+)
+
+Monitor Automations =
+CALCULATE(
+    DISTINCTCOUNT('automation_kpi'[automation_id]),
+    'automation_kpi'[health_status] = "Monitor"
+)

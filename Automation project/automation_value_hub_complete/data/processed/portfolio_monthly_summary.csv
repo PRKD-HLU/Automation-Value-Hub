@@ -1,0 +1,2 @@
+﻿reporting_month,active_automations,expected_runs,actual_process_runs,completed_runs,clean_success_runs,failed_runs,retry_count,first_pass_success_rate,completion_rate,failure_rate,execution_rate,gross_saved_hours,net_saved_hours,rework_hours,maintenance_hours,healthy_count,monitor_count,action_required_count,insufficient_data_count
+2026-08-01,2,2.0,2.0,2.0,1.0,0.0,1.0,0.5,1.0,0.0,1.0,4.833333333333333,4.666666666666666,0.16666666666666666,0.0,1,1,0,0

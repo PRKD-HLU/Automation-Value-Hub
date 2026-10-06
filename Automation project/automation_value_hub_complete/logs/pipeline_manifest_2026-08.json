@@ -1,0 +1,90 @@
+{
+  "pipeline_run_id": "RUN-20260930-220229",
+  "reporting_month": "2026-08",
+  "started_at": "2026-09-30T22:02:27.084038+00:00",
+  "finished_at": "2026-09-30T22:02:29.884230+00:00",
+  "duration_seconds": 2.8,
+  "status": "SUCCESS",
+  "calculation_version": "1.1.0",
+  "source_rows": {
+    "automation_register": 2,
+    "performance_maintenance": 2
+  },
+  "output_rows": {
+    "automation_kpi": 2,
+    "data_quality_issues": 4
+  },
+  "critical_errors": 0,
+  "warnings": 2,
+  "information_items": 2,
+  "published": true,
+  "input_files": [
+    {
+      "path": "C:\\Users\\PRKD\\Automation project\\automation_value_hub_complete\\data\\input\\Automation Register.csv",
+      "sha256": "bbbd7b161cbc40007eee6af3138c370e225785ec5421ca4a8b86790a63d3e59f",
+      "size_bytes": 504
+    },
+    {
+      "path": "C:\\Users\\PRKD\\Automation project\\automation_value_hub_complete\\data\\input\\Automation Performance & Maintenance.csv",
+      "sha256": "2b25ff08f5240838dbefc4da1fd89d353683124e783f75f573f12f534cdeccde",
+      "size_bytes": 330
+    }
+  ],
+  "output_files": [
+    {
+      "path": "C:\\Users\\PRKD\\Automation project\\automation_value_hub_complete\\data\\processed\\data_quality_issues.csv",
+      "sha256": "b5e442fbca4b75c88993f22517e32ed76d1bd0260c9bf4a5b0990e560610ac0f",
+      "size_bytes": 883
+    },
+    {
+      "path": "C:\\Users\\PRKD\\Automation project\\automation_value_hub_complete\\data\\processed\\automation_kpi.csv",
+      "sha256": "cd5c709441278e2e4f7feddd9d534c8f711440a5b0062fdcda1c2f65a711c80b",
+      "size_bytes": 1797
+    },
+    {
+      "path": "C:\\Users\\PRKD\\Automation project\\automation_value_hub_complete\\data\\processed\\portfolio_monthly_summary.csv",
+      "sha256": "9c08ed9350d51e7ed275b97f2b107de2e7e5764377d78efb8db813a933de6fbf",
+      "size_bytes": 460
+    },
+    {
+      "path": "C:\\Users\\PRKD\\Automation project\\automation_value_hub_complete\\data\\processed\\ml_readiness.json",
+      "sha256": "a62d113878b16e7d08355237822124bc1bccb2cfd0b2d9e0806e05044dee452f",
+      "size_bytes": 958
+    },
+    {
+      "path": "C:\\Users\\PRKD\\Automation project\\automation_value_hub_complete\\charts\\net_saved_hours_by_automation.png",
+      "sha256": "53fa12478284533cc551570dfab936c6cb96b7c7fe2e50f6e072944df404f964",
+      "size_bytes": 45545
+    },
+    {
+      "path": "C:\\Users\\PRKD\\Automation project\\automation_value_hub_complete\\charts\\gross_vs_net_savings.png",
+      "sha256": "2bae521b21321f07a532f4038b21bb2f983bee36b70eee918324e1a0060d738b",
+      "size_bytes": 50354
+    },
+    {
+      "path": "C:\\Users\\PRKD\\Automation project\\automation_value_hub_complete\\charts\\health_status_distribution.png",
+      "sha256": "0f5a33652da2bbe2249d16fc87829212ce988eb033efb7fb4dda56d5188426bd",
+      "size_bytes": 39602
+    },
+    {
+      "path": "C:\\Users\\PRKD\\Automation project\\automation_value_hub_complete\\charts\\data_quality_issues_by_severity.png",
+      "sha256": "9e0488143916e911e8df388c6ffa96c3fed501247bf24246425547f8ab6271e2",
+      "size_bytes": 28384
+    },
+    {
+      "path": "C:\\Users\\PRKD\\Automation project\\automation_value_hub_complete\\ai\\automation_ai_context_2026-08.json",
+      "sha256": "6b51a26b992cd0aba6e068f419ab7f2305e0a45763f6c32c44453056436fa3f6",
+      "size_bytes": 3282
+    },
+    {
+      "path": "C:\\Users\\PRKD\\Automation project\\automation_value_hub_complete\\ai\\monthly_summary_example_2026-08.md",
+      "sha256": "17fb36c7059da64055b0e17acc5b894a5df7b84ab8426eba2a8dcd70a909797d",
+      "size_bytes": 856
+    },
+    {
+      "path": "C:\\Users\\PRKD\\Automation project\\automation_value_hub_complete\\reports\\Automation_Value_Hub_Report_2026-08.xlsx",
+      "sha256": "03ed3552920411dfd842582ee8a8430af1e41b3992e8e5a1fc7101025769fa20",
+      "size_bytes": 87863
+    }
+  ]
+}

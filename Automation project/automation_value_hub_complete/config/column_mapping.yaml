@@ -1,0 +1,85 @@
+register:
+  automation_name:
+    - "Automation Name"
+    - "Title"
+  automation_id:
+    - "Automation ID"
+    - "AutomationID"
+  process_name:
+    - "Process Name"
+    - "ProcessName"
+  technology:
+    - "Technology"
+  frequency:
+    - "Frequency"
+  expected_runs_per_month:
+    - "Expected Runs per Month"
+    - "Expected Runs"
+    - "ExpectedRuns"
+  execution_mode:
+    - "Execution Mode"
+    - "ExecutionMode"
+  manual_active_minutes:
+    - "Manual Active Minutes per Run"
+    - "Manual Active Minutes"
+    - "ManualMinutes"
+  automated_active_minutes:
+    - "Automated Active Minutes per Run"
+    - "Automated Active Minutes"
+    - "AutomatedMinutes"
+  machine_runtime_minutes:
+    - "Machine Runtime"
+    - "Machine Runtime Minutes"
+    - "Machine Runtime per Run"
+    - "MachineRuntime"
+  owner:
+    - "Owner"
+    - "Technical Owner"
+  baseline_method:
+    - "Baseline Method"
+    - "BaselineMethod"
+  status:
+    - "Status"
+  requires_validation:
+    - "Requires Validation"
+    - "RequiresValidation"
+  logging_start_date:
+    - "Logging Start Date"
+    - "LoggingStartDate"
+
+performance:
+  record_key:
+    - "Record Key"
+    - "Title"
+  automation_id:
+    - "Automation ID"
+    - "AutomationID"
+  reporting_month:
+    - "Reporting Month"
+    - "ReportingMonth"
+  clean_success_runs:
+    - "Clean Success Runs"
+    - "Clean Success"
+  completed_with_rework_runs:
+    - "Completed with Rework"
+    - "Completed with Rework Runs"
+    - "Rework / Warning Runs"
+    - "Rework / Warning"
+  failed_runs:
+    - "Failed Runs"
+  retry_count:
+    - "Retry Count"
+  rework_minutes:
+    - "Rework Minutes"
+  maintenance_minutes:
+    - "Maintenance Minutes"
+    - "Maintenance Mins"
+  validation_status:
+    - "Validation Status"
+  comment:
+    - "Comment"
+    - "Comments"
+  records_processed:
+    - "Records Processed"
+  data_source:
+    - "Data Source"

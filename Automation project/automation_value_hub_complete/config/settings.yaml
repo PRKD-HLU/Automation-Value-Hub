@@ -1,0 +1,29 @@
+project:
+  name: "Automation Value & Reliability Hub"
+  calculation_version: "1.1.0"
+  default_reporting_month: "2026-08"
+
+input:
+  register_file: "data/input/Automation Register.csv"
+  performance_file: "data/input/Automation Performance & Maintenance.csv"
+
+output:
+  processed_dir: "data/processed"
+  reports_dir: "reports"
+  charts_dir: "charts"
+  ai_dir: "ai"
+  logs_dir: "logs"
+  models_dir: "models"
+
+publication:
+  stop_on_blocking_errors: true
+  csv_encoding: "utf-8-sig"
+  publish_all_months_to_kpi_csv: true
+
+excel_report:
+  include_charts: true
+  include_ai_summary: true
+  include_methodology: true
+
+logging:
+  level: "INFO"

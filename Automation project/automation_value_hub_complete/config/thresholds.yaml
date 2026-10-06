@@ -1,0 +1,33 @@
+health_status:
+  monitor_maintenance_ratio: 0.25
+  action_maintenance_ratio: 0.50
+  action_when_failed_runs_above: 0
+  action_when_net_saved_minutes_at_or_below: 0
+  monitor_when_execution_rate_below: 1.0
+
+validation:
+  valid_validation_statuses:
+    - "Passed"
+    - "Passed with Issues"
+    - "Failed"
+    - "Not Required"
+    - "Not Reported"
+  require_comment_when_maintenance_minutes_above: 0
+  require_comment_when_rework_minutes_above: 0
+  require_first_day_of_month: true
+  warning_if_baseline_method_missing: true
+  warning_if_passed_status_with_rework: true
+
+alerts:
+  first_pass_success_rate_below: 0.90
+  completion_rate_below: 1.00
+  execution_rate_below: 1.00
+  maintenance_ratio_above: 0.25
+
+ml_readiness:
+  anomaly_detection_min_rows: 30
+  anomaly_detection_min_months: 6
+  forecast_min_months: 6
+  classification_min_rows: 50
+  classification_min_positive_cases: 10
+  regression_min_rows_with_volume: 10

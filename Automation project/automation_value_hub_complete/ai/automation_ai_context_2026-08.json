@@ -1,0 +1,101 @@
+{
+  "reporting_month": "2026-08",
+  "generated_at": "2026-09-30T22:02:29.500643+00:00",
+  "portfolio_summary": {
+    "active_automations": 2,
+    "actual_process_runs": 2,
+    "completed_runs": 2,
+    "gross_saved_hours": 4.83,
+    "net_saved_hours": 4.67,
+    "first_pass_success_rate": 0.5,
+    "completion_rate": 1.0,
+    "failed_runs": 0,
+    "retry_count": 1,
+    "maintenance_hours": 0.0,
+    "rework_hours": 0.17
+  },
+  "health_status_summary": {
+    "Healthy": 1,
+    "Monitor": 1
+  },
+  "baseline_method_summary": {
+    "Not Available": 2
+  },
+  "automations": [
+    {
+      "automation_id": "AUT-001",
+      "automation_name": "Action plan list reminders",
+      "technology": "Power Automate",
+      "health_status": "Healthy",
+      "health_reason": "no failure, rework, retry or material maintenance issue",
+      "actual_process_runs": 1,
+      "net_saved_hours": 2.92,
+      "first_pass_success_rate": 1.0,
+      "validation_status": "Passed",
+      "data_quality_status": "Info"
+    },
+    {
+      "automation_id": "AUT-002",
+      "automation_name": "Process Performance copying",
+      "technology": "Power Automate",
+      "health_status": "Monitor",
+      "health_reason": "process completed with rework; technical retry recorded",
+      "actual_process_runs": 1,
+      "net_saved_hours": 1.75,
+      "first_pass_success_rate": 0.0,
+      "validation_status": "Passed",
+      "data_quality_status": "Warning"
+    }
+  ],
+  "automations_requiring_attention": [
+    {
+      "automation_id": "AUT-002",
+      "automation_name": "Process Performance copying",
+      "health_status": "Monitor",
+      "reason": "process completed with rework; technical retry recorded",
+      "net_saved_hours": 1.75
+    }
+  ],
+  "data_quality": {
+    "critical_errors": 0,
+    "warnings": 2,
+    "information_items": 2,
+    "total_issues": 4
+  },
+  "ml_readiness": {
+    "dataset": {
+      "automation_month_rows": 2,
+      "automations": 2,
+      "months": 1,
+      "problem_or_rework_cases": 1,
+      "rows_with_records_processed": 0
+    },
+    "use_cases": {
+      "anomaly_detection": {
+        "ready": false,
+        "reason": "Collect more automation-month rows and at least six reporting months."
+      },
+      "portfolio_forecast": {
+        "ready": false,
+        "reason": "Collect at least six reporting months before publishing a forecast."
+      },
+      "failure_risk_classification": {
+        "ready": false,
+        "reason": "Collect more rows and more examples of failure, rework or retry."
+      },
+      "manual_time_regression": {
+        "ready": false,
+        "reason": "Add Records Processed and measured manual-time observations for more runs."
+      }
+    },
+    "recommendation": "Use transparent rules and descriptive statistics in the prototype. Start ML only when the relevant readiness condition becomes true."
+  },
+  "ai_instructions": [
+    "Use only the supplied figures.",
+    "Do not invent missing values or root causes.",
+    "Do not recalculate KPI values.",
+    "Clearly mention estimated or incomplete data.",
+    "Separate factual findings from possible interpretations.",
+    "Keep the summary concise and suitable for a manager."
+  ]
+}

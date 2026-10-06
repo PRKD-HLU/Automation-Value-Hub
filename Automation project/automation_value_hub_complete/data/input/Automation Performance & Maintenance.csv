@@ -1,0 +1,3 @@
+﻿"Record Key","Automation ID","Reporting Month","Clean Success Runs","Completed with Rework","Failed Runs","Retry Count","Rework Minutes","Maintenance Minutes","Validation Status"
+"AUT-001-2026-08","AUT-001","8/1/2026","1","0","0","0","0","0","Passed"
+"AUT-002-2026-08","AUT-002","8/1/2026","0","1","0","1","10","0","Passed"

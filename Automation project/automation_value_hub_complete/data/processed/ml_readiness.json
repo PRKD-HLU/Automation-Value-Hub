@@ -1,0 +1,28 @@
+{
+  "dataset": {
+    "automation_month_rows": 2,
+    "automations": 2,
+    "months": 1,
+    "problem_or_rework_cases": 1,
+    "rows_with_records_processed": 0
+  },
+  "use_cases": {
+    "anomaly_detection": {
+      "ready": false,
+      "reason": "Collect more automation-month rows and at least six reporting months."
+    },
+    "portfolio_forecast": {
+      "ready": false,
+      "reason": "Collect at least six reporting months before publishing a forecast."
+    },
+    "failure_risk_classification": {
+      "ready": false,
+      "reason": "Collect more rows and more examples of failure, rework or retry."
+    },
+    "manual_time_regression": {
+      "ready": false,
+      "reason": "Add Records Processed and measured manual-time observations for more runs."
+    }
+  },
+  "recommendation": "Use transparent rules and descriptive statistics in the prototype. Start ML only when the relevant readiness condition becomes true."
+}

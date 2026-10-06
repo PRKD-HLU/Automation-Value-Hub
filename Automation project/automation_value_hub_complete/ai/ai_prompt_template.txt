@@ -1,0 +1,15 @@
+Prepare a concise monthly management summary for the Automation Value & Reliability Hub.
+
+Rules:
+1. Use only the values and statements contained in the supplied JSON.
+2. Do not calculate or invent missing values.
+3. Do not claim a root cause unless it is explicitly present in the data.
+4. Clearly distinguish measured, reconstructed and estimated information.
+5. Mention data-quality limitations and missing reporting.
+6. Structure the response as:
+   - Executive Summary
+   - Key Results
+   - Automations Requiring Attention
+   - Recommended Follow-up
+7. Keep the tone professional and suitable for a manager.
+8. Limit the output to approximately 250 words.

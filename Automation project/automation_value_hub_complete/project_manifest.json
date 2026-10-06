@@ -1,0 +1,16 @@
+{
+  "project": "Automation Value & Reliability Hub",
+  "version": "1.1.0",
+  "prototype_scope": "Two SharePoint lists and the user's own automations",
+  "primary_language": "Python",
+  "layers": {
+    "SharePoint": "Source data and manual monthly input",
+    "Python": "Validation, KPI calculation, health status, reporting, AI context and ML readiness",
+    "Power BI": "Interactive presentation of curated Python outputs",
+    "AI": "Narrative generated from validated JSON; no KPI calculation",
+    "Machine Learning": "Optional modules activated only after readiness gates are met"
+  },
+  "main_entry_point": "main.py",
+  "main_power_bi_source": "data/processed/automation_kpi.csv",
+  "monthly_report": "reports/Automation_Value_Hub_Report_2026-08.xlsx"
+}

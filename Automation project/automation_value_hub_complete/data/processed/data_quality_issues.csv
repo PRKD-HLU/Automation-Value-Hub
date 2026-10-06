@@ -1,0 +1,5 @@
+﻿issue_id,severity,automation_id,reporting_month,rule_code,field_name,issue_description,is_blocking,detected_at
+DQ-0001,Info,AUT-001,,BASELINE_METHOD_NOT_REPORTED,baseline_method,"Baseline Method is not available. Mark the time as Measured, Reconstructed or Estimated when known.",False,2026-09-30T22:02:27.346297+00:00
+DQ-0002,Info,AUT-002,,BASELINE_METHOD_NOT_REPORTED,baseline_method,"Baseline Method is not available. Mark the time as Measured, Reconstructed or Estimated when known.",False,2026-09-30T22:02:27.346537+00:00
+DQ-0003,Warning,AUT-002,2026-08-01,REWORK_WITHOUT_COMMENT,comment,Rework Minutes is above zero but Comment is blank.,False,2026-09-30T22:02:27.351435+00:00
+DQ-0004,Warning,AUT-002,2026-08-01,REWORK_WITH_PASSED_STATUS,validation_status,Completed with Rework is above zero; consider using 'Passed with Issues'.,False,2026-09-30T22:02:27.351544+00:00

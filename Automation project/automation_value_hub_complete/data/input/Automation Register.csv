@@ -1,0 +1,3 @@
+﻿"Automation Name","Automation ID","Process Name","Technology","Frequency","Expected Runs per Month","Execution Mode","Manual Active Minutes per Run","Automated Active Minutes per Run","Machine Runtime","Owner"
+"Action plan list reminders","AUT-001","Action plan list","Power Automate","Monthly","1","Unattended","180","5","10","Przemyslaw Kondrat"
+"Process Performance copying","AUT-002","Process Performance Heatmap","Power Automate","Monthly","1","Unattended","120","5","15","Przemyslaw Kondrat"
