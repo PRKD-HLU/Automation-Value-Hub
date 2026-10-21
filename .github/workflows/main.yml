@@ -1,0 +1,26 @@
+name: Manual repository check
+
+on:
+  workflow_dispatch:
+    inputs:
+      required_file:
+        description: "File to check"
+        required: true
+        default: "README.md"
+
+permissions:
+  contents: read
+
+jobs:
+  check-file:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Check selected file
+        run: |
+          if [ -f "${{ inputs.required_file }}" ]; then
+            echo "Found: ${{ inputs.required_file }}"
+          else
+            echo "Missing: ${{ inputs.required_file }}"
+            exit 1
+          fi
